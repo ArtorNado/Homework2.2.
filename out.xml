@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example>
+    <country title="Russia" priority="1">
+        <region title="Ленинградская область" priority="2">
+            <area title="Северо-западный" priority="2">
+                <town title="Шпильсбург" priority="1">
+                    <street>
+                        <house/>
+                    </street>
+                </town>
+            </area>
+            <area/>
+        </region>
+    </country>
+</example>

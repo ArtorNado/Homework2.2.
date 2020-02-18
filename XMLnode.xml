@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <title>Russia</title>
+    <childrenList>
+        <title>Приволжский</title>
+        <childrenList>
+            <title>Tatarstan</title>
+            <childrenList>
+                <title>Казань</title>
+                <type>REGION</type>
+                <priority>2</priority>
+            </childrenList>
+            <type>REGION</type>
+            <priority>3</priority>
+        </childrenList>
+        <type>AREA</type>
+        <priority>3</priority>
+    </childrenList>
+    <childrenList>
+        <title>Северо-западный</title>
+        <childrenList>
+            <title>Ленинградская область</title>
+            <childrenList>
+                <title>Санкт-Петербург</title>
+                <type>REGION</type>
+                <priority>1</priority>
+            </childrenList>
+            <type>REGION</type>
+            <priority>2</priority>
+        </childrenList>
+        <type>AREA</type>
+        <priority>2</priority>
+    </childrenList>
+    <type>COUNTRY</type>
+    <priority>1</priority>
+</root>
