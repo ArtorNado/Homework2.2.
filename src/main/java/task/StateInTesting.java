@@ -6,7 +6,7 @@ public class StateInTesting extends State {
     }
 
     @Override
-    public Object copy() {
+    public State copy(Task task) {
         return new StateInTesting(task);
     }
 

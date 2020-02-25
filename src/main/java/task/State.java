@@ -1,6 +1,6 @@
 package task;
 
-public abstract class State implements Copyable {
+public abstract class State {
 
     Task task;
 
@@ -8,7 +8,7 @@ public abstract class State implements Copyable {
         this.task = task;
     }
 
-    public abstract Object copy();
+    public abstract State copy(Task task);
 
     public Task getContext(){
         return task;

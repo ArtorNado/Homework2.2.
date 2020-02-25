@@ -6,7 +6,7 @@ public class StateOpen extends State {
     }
 
     @Override
-    public Object copy() {
+    public State copy(Task task) {
         return new StateOpen(task);
     }
 

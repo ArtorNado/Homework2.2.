@@ -15,13 +15,13 @@ public class Task implements Copyable, TaskMenegment {
         this.taskId = TaskId.getNewId();
     }
 
-    public Task(Task task){
+    private Task(Task task){
         this.taskId = task.taskId;
         this.developerId = task.developerId;
         this.testerId = task.testerId;
         this.text = task.text;
         this.error = task.error;
-        this.state = task.state;
+        this.state = task.state.copy(this);
     }
 
     public Object copy(){

@@ -4,8 +4,9 @@ public class StateClosed extends State {
     public StateClosed(Task task) {
         super(task);
     }
+
     @Override
-    public Object copy() {
+    public State copy(Task task) {
         return new StateClosed(task);
     }
 

@@ -7,7 +7,7 @@ public class StateDraft extends State {
     }
 
     @Override
-    public Object copy() {
+    public State copy(Task task) {
         return new StateDraft(task);
     }
 
