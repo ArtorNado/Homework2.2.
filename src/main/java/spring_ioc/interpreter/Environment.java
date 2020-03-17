@@ -1,10 +1,9 @@
-package browsing_history.pages.interpretator;
+package spring_ioc.interpreter;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Context {
-
+public class Environment {
     private Map<String, Object> attributes = new HashMap<>();
 
     public Object getAttribute(String key) {
