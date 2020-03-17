@@ -1,8 +1,5 @@
 package browsing_history.pages.position.video;
 
-import ru.naumow.pages.browser.Browser;
-import ru.naumow.pages.page.Page;
-import ru.naumow.pages.position.Position;
 
 public class VideoAdvPosition implements Position {
 
